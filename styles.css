@@ -1,0 +1,42 @@
+/* Natural element */
+
+nav {
+  display: flex;
+  /* border: 2px solid green; */
+  background-color: cornflowerblue;
+}
+
+h1 {
+  color: rgb(228, 224, 217);
+  flex-grow: 2;
+  text-align: center;
+  font-size: 2rem;
+  /* border: 2px solid blue; */
+  margin: 0rem;
+}
+
+/* Class */
+
+#navButtons {
+  display: flex;
+  /* border: 2px solid red; */
+  align-items: center;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.25rem;
+  border-radius: 50%;
+  width: 4rem;
+  color: rgb(71, 131, 11);
+  background-color: tan;
+  border: none;
+  filter: drop-shadow(2px 2px 2px black);
+}
+
+button:hover {
+  color: black;
+  background-color: yellow;
+}
+
+/* ID */ ;
